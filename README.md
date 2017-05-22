@@ -1,4 +1,4 @@
-# Data-Structure-Basics
+# NODE CLASS
 package BST_A2;
 
 
