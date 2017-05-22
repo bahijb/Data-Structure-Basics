@@ -8,19 +8,7 @@ public class BST_Node{
 	  BST_Node left;
 	  BST_Node right;
 	  
-	  BST_Node(String data){ this.data=data; }
-
-	  // --- used for testing  ----------------------------------------------
-
-	  public String getData(){ return data; }
-	  public BST_Node getLeft(){ return left; }
-	  public BST_Node getRight(){ return right; }
-
-	  / --- end used for testing -------------------------------------------
-
-	  
-	  // --- fill in these methods ------------------------------------------
-	// you can use the folowing:
+	  BST_Node(String data){ this.data=data;}
 
 	  /*
 	  public boolean containsNode(String s){ return false; }
@@ -30,11 +18,6 @@ public class BST_Node{
 	  public BST_Node findMax(){ return right; }
 	  public int getHeight(){ return 0; }
 	  */
-
-	  // --- end fill in these methods --------------------------------------
-
-	  // --------------------------------------------------------------------
-	  
 	  public String toString(){
 	    return "Data: "+this.data+", Left: "+((this.left!=null)?left.data:"null")
 	            +",Right: "+((this.right!=null)?right.data:"null");
